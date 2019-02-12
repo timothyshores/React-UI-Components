@@ -1,8 +1,21 @@
 import React from 'react';
 import './Header.css';
+import ImageThumbnail from "./ImageThumbnail"
+import HeaderTitle from "./HeaderTitle"
+import HeaderContent from "./HeaderContent"
 
 function HeaderContainer() {
-    return <h3>Header Container</h3>;
-}
+    return (
+        <div className="HeaderContainer">
+            <div className="HeaderThumbnail">
+                <ImageThumbnail />
+            </div>
+            <div className="HeaderTitleContent">
+                <HeaderTitle />
+                <HeaderContent />
+            </div>
+        </div>
+    );
+};
 
 export default HeaderContainer;
