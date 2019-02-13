@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    display: flex;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+.HeaderThumbnail img {
+    width: 50px;
+    margin: 10px 5px;
+}
+
+.HeaderTitle {
+    margin-top: 10px;
+} 
+
+.HeaderTitle #UserName {
+    font-weight: bold;
+}
+
+.HeaderTitle .faded {
+    color: grey;
+    font-weight: 300;
+    margin-left: 5px;
+    font-size: 0.75rem;
+}
+
+/* 
+.HeaderContent {
+    display: flex;
+    flex-direction: column;
+} */
