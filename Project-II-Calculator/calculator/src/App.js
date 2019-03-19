@@ -8,9 +8,9 @@ const App = () => {
     return (
         <div>
             <CalculatorDisplay />
-            <ActionButton />
+            <ActionButton button="clear" />
             <NumberButton />
-            <ActionButton />
+            <ActionButton button="0" />
         </div>
     );
 };
