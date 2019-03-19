@@ -1,0 +1,15 @@
+.action-button {
+    width: 600px;
+    border: 1px solid darkgray;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.number-button div button {
+    width: 200px;
+    font-size: 2rem;
+    background-color: white;
+    font-weight: 500;
+    border: 1px solid darkgray;
+}
